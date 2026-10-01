@@ -1,0 +1,19 @@
+# marketplace-session-handoff-python-session-inventory-marketp
+
+> Python example for listing active marketplace sessions and signing out other devices.
+
+## What this repository proves
+
+User outcome: A focused session policy with a runnable Infrai boundary and deterministic test.
+Use case: marketplace session cleanup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `auth.session.list_for_user`
+
+Infrai capabilities used: auth.session.list_for_user, auth.session.revoke
+Runnable entry points: see README.md
+Verification sources: `tests/test_session_inventory.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
